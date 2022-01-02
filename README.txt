@@ -1,10 +1,10 @@
 按照我的博客 http://blog.xbreeding.com 说明设置应用ID授权，其中到Redirect URIs ，除了http://localhost:3000/，还要增加自己的部署所用的https://网址到Redirect URIs，不然可能子账号登录会报Redirect URIs不相符的错（需要ssl安全认证的https://域名）
 
-此库基于2020年4月10日原项目github最新版(为了防查，具体来源看博客)，编译打包形成的静态网址文件，此库只作为 github page 和 下载部署到自己空间域名 使用。
+此库基于2020年4月10日原项目github最新版(为了防查，具体来源看博客)，编译打包形成的静态网址文件，此库只作为 github page 和 下载部署到自己空间域名使用，（本库中已进行了{授权appID}的替换，需要替换文件，请到https://github.com/setdiaoyong/teamAPI）。
 
 一、以下是github PAGE 部署说明：
 
-1、拉取到自己的github，在settings中将库名，改成自己的github用户名.github.io，分别打开static\js\main.b09a1c35.chunk.js和build\static\js\main.b09a1c35.chunk.js.map 分别搜索 {授权appID} ，将 {授权appID}  连 { }挂号一起替换成至自己设置好的app ID
+1、在setdiaoyong/teamAPI.git 库中，拉取到自己的github，在settings中将库名，改成自己的github用户名.github.io，分别打开static\js\main.b09a1c35.chunk.js和build\static\js\main.b09a1c35.chunk.js.map 分别搜索 {授权appID} ，将 {授权appID}  连 { }挂号一起替换成至自己设置好的app ID
 
 3、参考https://blog.csdn.net/yuexianchang/article/details/53431703设置githubpage，好像也就改个库名，其他自动识别，在下拉页面，看到github page 选项打钩，就说明部署成功，访问后，登录自己子账号，创建一下team的meeting，就可以了。
 

@@ -10,7 +10,7 @@
 
 4、他人子账户登录需要对应管理员授权，还在测试哪种授权可以允许登录。
 
-5、已验证，该静态文件能在国内免费空间coding.net部署成功：我部署的欢迎注册https://h0hyvx.coding-pages.com
+5、已验证，该静态文件能在国内免费空间coding.net部署成功：我部署的欢迎注册https://setdiaoyong.github.io
 
 二、如果部署到自己的空间和域名
 
